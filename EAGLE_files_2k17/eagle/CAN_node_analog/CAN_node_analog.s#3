@@ -9556,7 +9556,7 @@ Metric Code Size 4564</description>
 <instance part="R3" gate="G$1" x="-33.02" y="33.02" rot="R90"/>
 <instance part="R4" gate="G$1" x="-33.02" y="7.62" rot="R90"/>
 <instance part="R1" gate="G$1" x="-33.02" y="78.74" rot="R90"/>
-<instance part="SV1" gate="G$1" x="241.3" y="48.26" rot="R180"/>
+<instance part="SV1" gate="G$1" x="187.96" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -9680,14 +9680,6 @@ Metric Code Size 4564</description>
 </net>
 <net name="ANALOG_1" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="5"/>
-<wire x1="233.68" y1="53.34" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
-<label x="208.28" y="53.34" size="1.778" layer="95"/>
-<pinref part="SV1" gate="G$1" pin="1"/>
-<junction x="233.68" y="53.34"/>
-<wire x1="233.68" y1="53.34" x2="231.14" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$3" gate="A" pin="+IN"/>
 <wire x1="-22.86" y1="73.66" x2="-33.02" y2="73.66" width="0.1524" layer="91"/>
 <label x="-50.8" y="73.66" size="1.778" layer="95"/>
@@ -9695,16 +9687,14 @@ Metric Code Size 4564</description>
 <wire x1="-33.02" y1="73.66" x2="-35.56" y2="73.66" width="0.1524" layer="91"/>
 <junction x="-33.02" y="73.66"/>
 </segment>
-</net>
-<net name="ANALOG_2" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="6"/>
-<wire x1="233.68" y1="50.8" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="50.8" x2="195.58" y2="50.8" width="0.1524" layer="91"/>
 <label x="208.28" y="50.8" size="1.778" layer="95"/>
-<pinref part="SV1" gate="G$1" pin="2"/>
-<junction x="233.68" y="50.8"/>
-<wire x1="233.68" y1="50.8" x2="231.14" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="5"/>
 </segment>
+</net>
+<net name="ANALOG_2" class="0">
 <segment>
 <pinref part="U$3" gate="B" pin="+IN"/>
 <wire x1="-22.86" y1="50.8" x2="-33.02" y2="50.8" width="0.1524" layer="91"/>
@@ -9713,16 +9703,14 @@ Metric Code Size 4564</description>
 <wire x1="-33.02" y1="50.8" x2="-35.56" y2="50.8" width="0.1524" layer="91"/>
 <junction x="-33.02" y="50.8"/>
 </segment>
-</net>
-<net name="ANALOG_3" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="7"/>
-<wire x1="233.68" y1="48.26" x2="223.52" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="48.26" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
 <label x="208.28" y="48.26" size="1.778" layer="95"/>
-<pinref part="SV1" gate="G$1" pin="3"/>
-<junction x="233.68" y="48.26"/>
-<wire x1="233.68" y1="48.26" x2="231.14" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="4"/>
 </segment>
+</net>
+<net name="ANALOG_3" class="0">
 <segment>
 <pinref part="U$3" gate="C" pin="+IN"/>
 <wire x1="-22.86" y1="27.94" x2="-33.02" y2="27.94" width="0.1524" layer="91"/>
@@ -9731,16 +9719,14 @@ Metric Code Size 4564</description>
 <wire x1="-33.02" y1="27.94" x2="-35.56" y2="27.94" width="0.1524" layer="91"/>
 <junction x="-33.02" y="27.94"/>
 </segment>
-</net>
-<net name="ANALOG_4" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="8"/>
-<wire x1="233.68" y1="45.72" x2="223.52" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="45.72" x2="195.58" y2="45.72" width="0.1524" layer="91"/>
 <label x="208.28" y="45.72" size="1.778" layer="95"/>
-<pinref part="SV1" gate="G$1" pin="4"/>
-<junction x="233.68" y="45.72"/>
-<wire x1="233.68" y1="45.72" x2="231.14" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="3"/>
 </segment>
+</net>
+<net name="ANALOG_4" class="0">
 <segment>
 <pinref part="U$3" gate="D" pin="+IN"/>
 <wire x1="-35.56" y1="2.54" x2="-33.02" y2="2.54" width="0.1524" layer="91"/>
@@ -9748,6 +9734,12 @@ Metric Code Size 4564</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="-33.02" y1="2.54" x2="-22.86" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-33.02" y="2.54"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="9"/>
+<wire x1="231.14" y1="43.18" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
+<label x="208.28" y="43.18" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -9885,18 +9877,10 @@ Metric Code Size 4564</description>
 </net>
 <net name="RESET_CAN_NODE" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="9"/>
-<wire x1="233.68" y1="43.18" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
-<label x="198.12" y="43.18" size="1.778" layer="95"/>
-<pinref part="SV1" gate="G$1" pin="5"/>
-<junction x="233.68" y="43.18"/>
-<wire x1="233.68" y1="43.18" x2="231.14" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
 <pinref part="X1" gate="G$1" pin="10"/>
-<wire x1="231.14" y1="40.64" x2="223.52" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="40.64" x2="195.58" y2="40.64" width="0.1524" layer="91"/>
+<label x="203.2" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED_OUT" class="0">
